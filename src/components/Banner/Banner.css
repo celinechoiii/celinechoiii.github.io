@@ -1,0 +1,58 @@
+.banner-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  height: 100vh;
+  top: 0;
+  z-index: 10;
+}
+
+.banner-content {
+  text-align: left;
+  max-width: 800px; /* Adjust the max-width as needed */
+}
+
+.banner-container h1 {
+  margin: 15px 0;
+  font-size: 70px;
+  font-weight: 600;
+  letter-spacing: 0.8px;
+  line-height: 1;
+  display: block;
+}
+
+.banner-container h2 {
+  font-weight: 600;
+  line-height: 1.5em;
+}
+
+.border-text {
+  font-family: "Cambon", serif;
+  font-weight: 300;
+  font-style: italic;
+  letter-spacing: -0.03em;
+  display: inline-block;
+}
+
+h1 .border-text {
+  font-size: 75px;
+}
+
+h2 .border-text {
+  font-size: 30px;
+}
+
+.social-icons {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.social-icons .social-icon {
+  transition: transform 0.3s ease;
+}
+
+.social-icons .social-icon:hover {
+  transform: scale(1.2);
+}

@@ -1,0 +1,60 @@
+.nav-wrapper {
+  padding: 18px 25px;
+  position: fixed;
+  width: 100vw;
+  top: 0;
+  z-index: 30;
+  transition: 0.32s ease-in-out;
+}
+
+.nav-wrapper.default {
+  background-color: transparent; /* Default background color */
+}
+
+.nav-wrapper.scrolled {
+  background-color: rgba(
+    211,
+    188,
+    203,
+    0.657
+  ); /* Background color after scrolling */
+}
+
+.nav-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* margin: 0 auto; */
+}
+
+.logo {
+  width: 200px;
+  height: 60px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.menu-wrapper {
+  margin: 0 20px;
+  padding: 0 30px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.menu-item {
+  padding: 10px 20px;
+  font-size: 12;
+  font-weight: 500;
+  color: white;
+  background-color: rgba(255, 255, 255, 0.3);
+  /* border: 2px solid #000; */
+  border-radius: 18px;
+  position: relative;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.menu-item:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
