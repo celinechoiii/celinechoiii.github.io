@@ -1,3 +1,32 @@
+/* Authentic Sans font definitions */
+@font-face {
+  font-family: "Authentic Sans";
+  src: url("./fonts/AUTHENTICSans-60.otf") format("truetype");
+  font-weight: 60;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Authentic Sans";
+  src: url("./fonts/AUTHENTICSans-90.otf") format("truetype");
+  font-weight: 90;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Authentic Sans";
+  src: url("./fonts/AUTHENTICSans-130.otf") format("truetype");
+  font-weight: 130;
+  font-style: bold;
+}
+
+@font-face {
+  font-family: "Authentic Sans";
+  src: url("./fonts/AUTHENTICSans-150.otf") format("truetype");
+  font-weight: 150;
+  font-style: bold;
+}
+
 /* Cambon font definitions */
 @font-face {
   font-family: "Cambon";

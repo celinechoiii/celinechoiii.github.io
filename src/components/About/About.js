@@ -22,13 +22,13 @@ export const About = () => {
           <p>
             Outside of work, I like <b>exploring cute cafes</b> and{" "}
             <b>trying their overpriced drinks</b>,{" "}
-            <b>humming to addicting songs</b> (back in my k-pop era), and
+            <b>humming to addicting songs</b> (back in my k-pop era), and{" "}
             <b>playing various games</b> (nintendo switch, board games etc.)
             with my friends!
           </p>
           <p>
             Feel free to reach out to me by following my socials or emailing me
-            at <b>celinejwchoiii at gmail dot com</b> ☆
+            at <b>celinejwchoiii at gmail dot com</b>
           </p>
         </div>
         <video
