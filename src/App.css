@@ -1,5 +1,8 @@
 .App {
   text-align: center;
+}
+
+html {
   scroll-behavior: smooth;
 }
 
@@ -7,13 +10,8 @@ body {
   font-weight: 400;
   overflow-x: hidden;
   position: relative;
-  /* background: radial-gradient(
-    circle,
-    rgba(238, 174, 202, 1) 0%,
-    rgba(148, 202, 233, 1) 100%
-  ); */
-  background: linear-gradient(to right, #aa4b6b, #6b6b83, #3b8d99);
-  /* font-family: "Manrope", sans-serif !important; */
+  /* background: linear-gradient(to right, #aa4b6b, #6b6b83, #3b8d99); */
+  background: linear-gradient(to right, #8360c3, #2ebf91);
   font-family: "Authentic Sans", sans-serif !important;
   color: white !important;
 }

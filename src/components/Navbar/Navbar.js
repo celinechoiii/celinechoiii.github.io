@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-// import { Link } from "react-router-dom";
 import "./Navbar.css";
 
 export const Navbar = () => {
@@ -7,7 +6,7 @@ export const Navbar = () => {
 
   useEffect(() => {
     const onScroll = () => {
-      if (window.scrollY > 50) {
+      if (window.scrollY > window.innerHeight - 10) {
         setScrolled(true);
       } else {
         setScrolled(false);
@@ -22,14 +21,31 @@ export const Navbar = () => {
   return (
     <nav className={`nav-wrapper ${scrolled ? "scrolled" : "default"}`}>
       <div className="nav-content">
-        {/* <img className="logo" src="" alt="" /> */}
-        <div className="logo"></div>
+        <a href="#home" className="logo">
+          CELINE <span className="logo lastname">CHOI</span>
+          {/* <img className="logo-pic" src={celineMemoji} alt="Celine Memoji" /> */}
+        </a>
 
         <div className="menu-wrapper">
-          <a className="menu-item">HOME</a>
-          <a className="menu-item">ABOUT</a>
-          <a className="menu-item">EXPERIENCE</a>
-          <a className="menu-item">PROJECTS</a>
+          <a href="#home" className="menu-item">
+            HOME
+          </a>
+          <a href="#about" className="menu-item">
+            ABOUT
+          </a>
+          <a href="#experience" className="menu-item">
+            EXPERIENCE
+          </a>
+          <a href="#projects" className="menu-item">
+            PROJECTS
+          </a>
+          <a
+            href="https://drive.google.com/file/d/1vC-u-FIpiiVfh9mUQ2I72avOkEKndmyK/view?usp=sharing"
+            className="menu-item resume"
+            target="_blank"
+          >
+            RESUME
+          </a>
         </div>
       </div>
     </nav>

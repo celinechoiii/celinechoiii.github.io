@@ -7,17 +7,25 @@
   transition: 0.32s ease-in-out;
 }
 
+a {
+  text-decoration: none;
+}
+
 .nav-wrapper.default {
   background-color: transparent; /* Default background color */
 }
 
 .nav-wrapper.scrolled {
-  background-color: rgba(
-    211,
-    188,
-    203,
-    0.657
-  ); /* Background color after scrolling */
+  /* Choose background color later */
+}
+
+.nav-wrapper.scrolled .logo,
+.nav-wrapper.scrolled .menu-item {
+  color: black;
+}
+
+.nav-wrapper.scrolled .menu-item.resume {
+  border: 1px solid black;
 }
 
 .nav-content {
@@ -28,10 +36,24 @@
 }
 
 .logo {
-  width: 200px;
-  height: 60px;
-  background-color: white;
+  display: flex;
+  flex-direction: row;
+  font-weight: 100;
+  font-size: 25px;
   cursor: pointer;
+  color: white;
+  transition: transform 0.3s ease-in-out;
+}
+
+.logo.lastname {
+  font-family: "Cambon", sans-serif;
+  font-style: italic;
+  font-size: 28px;
+  font-weight: 300;
+}
+
+.logo:hover {
+  transform: scale(1.05);
 }
 
 .menu-wrapper {
@@ -43,18 +65,19 @@
 }
 
 .menu-item {
-  padding: 10px 20px;
-  font-size: 12;
-  font-weight: 500;
-  color: white;
-  background-color: rgba(255, 255, 255, 0.3);
-  /* border: 2px solid #000; */
-  border-radius: 18px;
+  padding: 10px 15px;
+  font-size: 13px;
+  font-weight: 100;
   position: relative;
   cursor: pointer;
-  transition: background-color 0.3s ease, color 0.3s ease;
+  color: white;
 }
 
-.menu-item:hover {
-  background-color: rgba(255, 255, 255, 0.5);
+.menu-item.resume {
+  border: 1px solid white;
+}
+
+.menu-item.resume:hover {
+  background-color: rgba(255, 255, 255, 0.25);
+  transition: background-color 0.3s ease;
 }

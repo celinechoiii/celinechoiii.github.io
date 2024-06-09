@@ -13,9 +13,10 @@
 .about-wrapper {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   max-width: 1200px;
+  gap: 90px;
   width: 100%;
 }
 
@@ -28,7 +29,7 @@
 }
 
 .about-container :is(h1, h2, p, span) {
-  background: linear-gradient(to right, #aa4b6b, #6b6b83, #3b8d99);
+  background: linear-gradient(to right, #8360c3, #2ebf91);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
@@ -49,5 +50,5 @@
   /* font-family: "DM Sans", sans-serif; */
   font-family: "Authentic Sans", sans-serif;
   font-weight: 90;
-  font-size: 20px;
+  font-size: 17px;
 }

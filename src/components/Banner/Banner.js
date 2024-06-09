@@ -1,6 +1,5 @@
 import React from "react";
 import "./Banner.css";
-import { SocialIcon } from "react-social-icons";
 
 export const Banner = () => {
   const copyToClipboard = (text) => {
@@ -15,38 +14,53 @@ export const Banner = () => {
   };
 
   return (
-    <section className="banner-container">
+    <section id="home" className="banner-container">
       <div className="banner-content">
         <h1>
-          <span className="border-text">Hello World</span> 👋
+          <span className="border-text">Hello World!</span>
         </h1>
         <h1>
-          My name is <span className="border-text">Celine Choi.</span>
+          <span className="border-text">
+            My name is <span className="custom-underline">Celine Choi</span>.
+          </span>
         </h1>
         <h2>
-          Welcome to my website 🎶 I am a{" "}
-          <span className="border-text">software engineer&nbsp;</span> based
-          in&nbsp;
-          <span className="border-text">san francisco</span> 📍 I thrive
-          on&nbsp;
-          <span className="border-text">solving complex problems</span>{" "}
-          and&nbsp;
-          <span className="border-text">creating impactful solutions</span> 👩🏻‍💻 I
-          enjoy <span className="border-text">bringing ideas to life</span>{" "}
-          through coding 🌱
+          I'm a <b>software engineer</b> based in <b>Berkeley, CA</b>. I am
+          passionate about <b>solving complex problems</b> and{" "}
+          <b>creating impactful solutions</b> through code.
         </h2>
-        <div className="social-icons">
-          <SocialIcon url="https://github.com/celinechoiii" />
-          <SocialIcon url="https://linkedin.com/in/celinejwchoi" />
-          <SocialIcon url="https://instagram.com/celinejwchoi" />
-          <SocialIcon
-            network="email"
-            bgColor="#fff"
-            fgColor="#d21f3c"
-            onClick={() => copyToClipboard("celinejwchoiii@gmail.com")}
-          />
+        <div className="social-icons-container">
+          <a
+            href="https://github.com/celinechoiii"
+            target="_blank"
+            class="social-icon"
+          >
+            Github<span className="topright-arrow">&#8599;</span>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/celinejwchoi"
+            target="_blank"
+            class="social-icon"
+          >
+            LinkedIn<span className="topright-arrow">&#8599;</span>
+          </a>
+          <a
+            href="https://www.instagram.com/celinejwchoi"
+            target="_blank"
+            class="social-icon"
+          >
+            Instagram<span className="topright-arrow">&#8599;</span>
+          </a>
+          <a
+            href="mailto:celinejwchoiii@gmail.com"
+            target="_blank"
+            class="social-icon"
+          >
+            Email<span className="topright-arrow">&#8599;</span>
+          </a>
         </div>
       </div>
+      {/* <div className="down-arrow">&#x2193;</div> */}
     </section>
   );
 };

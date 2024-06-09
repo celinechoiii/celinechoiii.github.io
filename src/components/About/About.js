@@ -1,18 +1,26 @@
 import React from "react";
-import aboutmeVideo from "../../assets/videos/aboutme-video.mp4";
+// import aboutmeVideo from "../../assets/videos/aboutme-video.mp4";
 import "./About.css";
 
 export const About = () => {
   return (
-    <div className="about-container">
+    <section id="about" className="about-container">
       <div className="about-wrapper">
+        <video
+          src="/assets/videos/aboutme-video.mp4"
+          autoPlay
+          loop
+          muted
+          playsInline
+          style={{ width: "43%", pointerEvents: "none" }}
+        />
         <div className="about-text-container">
           <h1>A little bit about me...</h1>
           <p>
             I am a fourth year at <b>UC Berkeley</b> studying{" "}
             <b>Computer Science</b>! I am originally from{" "}
             <b>Seoul, South Korea</b>, but I've lived in multiple countries
-            throughout my life -- China, New Zealand, and now in <b>the US</b>.
+            throughout my life — China, New Zealand, and now in <b>the US</b>.
           </p>
           <p>
             I am a <b>self-motivated</b> and <b>proactive learner</b> who enjoys
@@ -28,18 +36,10 @@ export const About = () => {
           </p>
           <p>
             Feel free to reach out to me by following my socials or emailing me
-            at <b>celinejwchoiii at gmail dot com</b>
+            at <b>celinejwchoiii at gmail dot com</b>.
           </p>
         </div>
-        <video
-          src={aboutmeVideo}
-          autoPlay
-          loop
-          muted
-          playsInline
-          style={{ width: "47%", pointerEvents: "none" }}
-        />
       </div>
-    </div>
+    </section>
   );
 };

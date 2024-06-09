@@ -1,51 +1,79 @@
 .experience-container {
-  background-color: linear-gradient(to right, #aa4b6b, #6b6b83, #3b8d99);
-  font-family: "Cambon", serif;
-  height: 100vh;
+  background-color: #f6f3f3;
   padding: 20px;
+  color: black;
+  align-items: center;
 }
 
 .experience-container h1 {
-  font-size: 35px;
+  font-family: "Cambon", sans-serif;
+  font-size: 40px;
   font-weight: 300;
   font-style: italic;
   letter-spacing: -0.03em;
 }
 
+.experience-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  position: relative;
+  flex-wrap: wrap;
+}
+
 .experience-wrapper.row {
   flex-direction: row;
-  justify-content: space-around;
-  /* text-align: left; */
+  gap: 100px;
 }
 
 .experience-wrapper.col {
   flex-direction: column;
 }
 
-.experience-wrapper {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-  border: 1px solid white;
+.experience-text {
+  font-family: "Authentic Sans", sans-serif;
 }
 
-.experience-title {
-  margin: 2% 0;
-  font-family: "Authentic Sans", sans-serif;
+.experience-text.title {
+  padding-top: 2%;
+  font-weight: 150;
+  font-size: 22px;
+  /* color: lightseagreen; */
+}
+
+.experience-text.subtitle {
+  padding: 0.5%;
+  font-weight: 130;
+  font-size: 20px;
+  /* color: lightseagreen; */
+}
+
+.experience-text.heading1 {
+  padding: 0.5%;
   font-weight: 90;
-  font-size: 20px;
+  font-size: 15px;
+  color: black;
 }
 
-.experience-subtitle {
-  font-family: "Authentic Sans", sans-serif;
+.experience-text.body {
+  padding-top: 2%;
   font-weight: 50;
-  font-size: 20px;
+  font-size: 13px;
+  color: rgb(100, 100, 100);
 }
 
 .section-container {
-  width: 100%;
-  border: 1px solid red;
+  padding: 20px;
+  margin: 10px 0;
+  width: 500px;
+  background-color: white;
+  border-radius: 10px;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.section-container:hover {
+  transform: scale(1.03);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .section-text {
@@ -54,4 +82,30 @@
   font-weight: 50;
   font-size: 15px;
   text-align: left;
+}
+
+.experience-text.date {
+  display: inline-block;
+  padding: 5px;
+  margin: 1% 0;
+  background: rgba(32, 178, 170, 0.2);
+  color: lightseagreen;
+  font-size: 12px;
+  font-weight: 100;
+}
+
+.topright-arrow {
+  font-size: 15px;
+  font-weight: 200;
+}
+
+@media (max-width: 768px) {
+  .experience-wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .section-container {
+    width: 100%;
+  }
 }
