@@ -171,8 +171,17 @@ export const Experience = () => {
               <b>*In progress</b>
             </div>
           </div>
-          <div className="experience-text title">TOOLS & FRAMEWORKS</div>
-          <div className="section-container"></div>
+          <div className="experience-text title">SKILLS</div>
+          <div className="section-container">
+            <div className="section-text">
+              <b>Languages</b> — Python, Java, C, HTML, CSS, Typescript, SQL, R,
+              Go, RISC-V Assembly, x86 Assembly
+            </div>
+            <div className="section-text">
+              <b>Frameworks/Tools</b> — React, Firebase, NumPy, Node.js, Pandas,
+              Docker, Matplotlib, Sklearn, Git, Supabase
+            </div>
+          </div>
         </div>
       </div>
     </section>
