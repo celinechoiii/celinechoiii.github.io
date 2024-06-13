@@ -2,17 +2,6 @@ import React from "react";
 import "./Banner.css";
 
 export const Banner = () => {
-  const copyToClipboard = (text) => {
-    navigator.clipboard.writeText(text).then(
-      () => {
-        alert("Email address copied to clipboard!");
-      },
-      (err) => {
-        console.error("Failed to copy text: ", err);
-      }
-    );
-  };
-
   return (
     <section id="home" className="banner-container">
       <div className="banner-content">

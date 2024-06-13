@@ -1,37 +1,47 @@
 import React from "react";
-// import aboutmeVideo from "../../assets/videos/aboutme-video.mp4";
 import "./About.css";
 
 export const About = () => {
   return (
     <section id="about" className="about-container">
       <div className="about-wrapper">
-        <video
+        {/* <video
           src="/assets/videos/aboutme-video.mp4"
           autoPlay
           loop
           muted
           playsInline
           style={{ width: "43%", pointerEvents: "none" }}
-        />
+        /> */}
+        <div className="about-img-container">
+          <img
+            src="/assets/img/about/about-1.jpeg"
+            className="img-rounded"
+            style={{ width: "350px" }}
+          />
+          <img
+            src="/assets/img/about/spotify-playing.png"
+            style={{ width: "350px" }}
+          />
+        </div>
         <div className="about-text-container">
-          <h1>A little bit about me...</h1>
+          <h1>Here's a little bit about me...</h1>
           <p>
             I am a fourth year at <b>UC Berkeley</b> studying{" "}
             <b>Computer Science</b>! I am originally from{" "}
-            <b>Seoul, South Korea</b>, but I've lived in multiple countries
-            throughout my life — China, New Zealand, and now in <b>the US</b>.
+            <u>Seoul, South Korea</u>, but I've lived in multiple countries
+            throughout my life — China, New Zealand, and now in <u>the US</u>.
           </p>
           <p>
             I am a <b>self-motivated</b> and <b>proactive learner</b> who enjoys
-            delving into the <b>passion for programming</b> through internships,
+            delving into the <u>passion for programming</u> through internships,
             contract work, personal projects, and coursework.
           </p>
           <p>
-            Outside of work, I like <b>exploring cute cafes</b> and{" "}
-            <b>trying their overpriced drinks</b>,{" "}
-            <b>humming to addicting songs</b> (back in my k-pop era), and{" "}
-            <b>playing various games</b> (nintendo switch, board games etc.)
+            Outside of work, I like <u>exploring cute cafes</u> and{" "}
+            <u>trying their overpriced drinks</u>,{" "}
+            <u>humming to catchy songs</u> (back in my k-pop era), and{" "}
+            <u>playing various games</u> (nintendo switch, board games etc.)
             with my friends!
           </p>
           <p>

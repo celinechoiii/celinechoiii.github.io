@@ -73,6 +73,10 @@ a {
   color: white;
 }
 
+.menu-item.active {
+  text-decoration: underline;
+}
+
 .menu-item.resume {
   border: 1px solid white;
 }
