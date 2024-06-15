@@ -3,6 +3,7 @@
   padding: 20px;
   color: black;
   align-items: center;
+  font-family: "Authentic Sans", sans-serif;
 }
 
 .experience-container h1 {
@@ -30,22 +31,16 @@
   flex-direction: column;
 }
 
-.experience-text {
-  font-family: "Authentic Sans", sans-serif;
-}
-
 .experience-text.title {
   padding-top: 2%;
   font-weight: 150;
   font-size: 22px;
-  /* color: lightseagreen; */
 }
 
 .experience-text.subtitle {
   padding: 0.5%;
   font-weight: 130;
   font-size: 20px;
-  /* color: lightseagreen; */
 }
 
 .experience-text.heading1 {
@@ -60,6 +55,7 @@
   font-weight: 50;
   font-size: 13px;
   color: rgb(100, 100, 100);
+  line-height: 1.25em;
 }
 
 .section-container {

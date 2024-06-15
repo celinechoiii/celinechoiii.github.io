@@ -13,13 +13,14 @@ export const Experience = () => {
             <div className="experience-text subtitle">Software Developer</div>
             <div className="experience-text heading1">Shanti Project</div>
             <div className="experience-text body">
-              Contracted by Shanti Project through Blueprint build an E-commerce
-              website for PAWS Pet Food Bank to automate the order placement and
-              delivery scheduling process using React, Typescript, Retool &
-              Supabase. Developed a responsive and user-friendly storefront with
-              a sticky header, enhancing the overall browsing experience for
-              customers. Implemented dynamic routing for item pages, allowing
-              users to navigate from storefront to detailed information about a
+              Contracted by Shanti Project through Blueprint to build an{" "}
+              <b>E-commerce website</b> for PAWS Pet Food Bank, automating the
+              order placement and delivery scheduling process using{" "}
+              <b>React, TypeScript, Retool, and Supabase</b>. Developed a
+              responsive and <b>user-friendly storefront</b> with a sticky
+              header, enhancing the overall browsing experience for customers.
+              Implemented <b>dynamic routing for item pages</b>, allowing users
+              to navigate from storefront to detailed information about a
               specific item.
             </div>
             <a
@@ -39,13 +40,14 @@ export const Experience = () => {
               Chinese Newcomers Service Center
             </div>
             <div className="experience-text body">
-              Contracted by CNSC through Blueprint to build a bilingual job
-              search application for 5000+ users using React, Firebase &
-              Typescript. Implemented job feed functionality for job seekers to
-              effectively browse and filter through local employment
-              opportunities. Customized app interface for different user types,
+              Contracted by CNSC through Blueprint to build a bilingual{" "}
+              <b>job search application</b> using{" "}
+              <b>React, Expo, Firebase, and TypeScript</b>. Implemented a{" "}
+              <b>job feed functionality</b> allowing job seekers to efficiently
+              browse and filter local employment opportunities.{" "}
+              <b>Customized the app interface for different user types</b>,
               presenting role-specific information and frontend features to
-              improve usability.
+              enhance usability.
             </div>
             <a
               href="https://github.com/calblueprint/chinese-newcomers"
@@ -66,9 +68,9 @@ export const Experience = () => {
               Data 100: Principles & Techniques of Data Science
             </div>
             <div className="experience-text body">
-              Instructed Data 100, Berkeley's flagship DS course for grad
+              Instructed Data 100, <b>Berkeley's flagship DS course</b> for grad
               students and advanced undergraduates, to 1000+ students. Taught
-              fundamental data science concepts such as feature engineering,
+              fundamental DS concepts such as feature engineering,
               cross-validation, regularization, and logistic regression.
             </div>
           </div>
@@ -79,10 +81,10 @@ export const Experience = () => {
             </div>
             <div className="experience-text heading1">Big Data at Berkeley</div>
             <div className="experience-text body">
-              Developed and launched Data Science Demystified, an acclaimed
-              8-module online course focused on the fundamentals of Data
-              Science, including Pandas, Data Visualizations, SQL, and basic
-              Machine Learning techniques.
+              Developed and launched <b>Data Science Demystified</b>, an
+              acclaimed 8-module online course focused on the fundamentals of
+              Data Science, including Pandas, Data Visualizations, SQL, and
+              basic Machine Learning techniques.
             </div>
             <a
               href="https://bd.studentorg.berkeley.edu/online_course/schedule/"
@@ -115,7 +117,7 @@ export const Experience = () => {
             </div>
             <div className="experience-text date">Fall 2021 - Spring 2025</div>
             <div className="experience-text body">
-              <b>GPA</b>: 3.92
+              <b>GPA</b>: 3.92/4.00
             </div>
             <div className="experience-text body">
               <b>Activities</b>: Cal Blueprint, Big Data at Berkeley, Data 100 -
