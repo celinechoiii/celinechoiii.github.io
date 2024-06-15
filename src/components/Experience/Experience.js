@@ -87,7 +87,7 @@ export const Experience = () => {
               basic Machine Learning techniques.
             </div>
             <a
-              href="https://bd.studentorg.berkeley.edu/online_course/schedule/"
+              href="https://bd.studentorg.berkeley.edu/"
               className="experience-text body"
               target="_blank"
             >
@@ -176,8 +176,8 @@ export const Experience = () => {
           <div className="experience-text title">SKILLS</div>
           <div className="section-container">
             <div className="section-text">
-              <b>Languages</b> — Python, Java, C, HTML, CSS, Typescript, SQL, R,
-              Go, RISC-V Assembly, x86 Assembly
+              <b>Languages</b> — Python, Java, C, HTML, CSS, TypeScript,
+              JavaScript, SQL, R, Go, RISC-V Assembly, x86 Assembly
             </div>
             <div className="section-text">
               <b>Frameworks/Tools</b> — React, Firebase, NumPy, Node.js, Pandas,

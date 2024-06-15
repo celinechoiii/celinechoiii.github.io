@@ -5,14 +5,6 @@ export const About = () => {
   return (
     <section id="about" className="about-container">
       <div className="about-wrapper">
-        {/* <video
-          src="/assets/videos/aboutme-video.mp4"
-          autoPlay
-          loop
-          muted
-          playsInline
-          style={{ width: "43%", pointerEvents: "none" }}
-        /> */}
         <div className="about-img-container">
           <img
             src="/assets/img/about/about-1.jpeg"
