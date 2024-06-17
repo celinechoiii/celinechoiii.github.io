@@ -8,12 +8,11 @@ export const About = () => {
         <div className="about-img-container">
           <img
             src="/assets/img/about/about-1.jpeg"
-            className="img-rounded"
-            style={{ width: "350px" }}
+            className="about-img rounded"
           />
           <img
             src="/assets/img/about/spotify-playing.png"
-            style={{ width: "350px" }}
+            className="about-img"
           />
         </div>
         <div className="about-text-container">

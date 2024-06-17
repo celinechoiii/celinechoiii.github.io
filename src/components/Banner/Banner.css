@@ -3,19 +3,18 @@
   align-items: center;
   justify-content: center;
   position: relative;
-  height: 100vh;
+  min-height: 100vh;
   top: 0;
   z-index: 10;
 }
 
 .banner-content {
   text-align: left;
-  max-width: 800px;
+  max-width: 55%;
 }
 
 .banner-container h1 {
   margin: 0;
-  font-size: 70px;
   font-weight: 100;
   letter-spacing: 0.8px;
   line-height: 1;
@@ -41,18 +40,15 @@ h1 .border-text {
   font-size: 75px;
 }
 
-h2 .border-text {
-  font-size: 25px;
-}
-
 .social-icons-container {
+  margin-top: 5px;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   gap: 20px;
 }
 
 .social-icon {
-  margin-top: 5px;
   padding: 6px;
   height: 20px;
   border: 1px solid white;
@@ -76,18 +72,26 @@ h2 .border-text {
   font-weight: 200;
 }
 
-.logo-pic {
-  width: 5%;
-  height: auto;
-  cursor: pointer;
-}
+/* Phone screen */
+@media (max-width: 480px) {
+  .banner-content {
+    max-width: 85%;
+  }
 
-/* .down-arrow {
-  display: flex;
-  flex-direction: column;
-  padding-top: 150px;
-  text-align: center;
-  font-size: 35px;
-  transition: 0.3s;
-  animation: bounce 3s infinite;
-} */
+  h1 .border-text {
+    /* font-size: 70px; */
+    font-size: 2.5em;
+  }
+
+  .banner-container h2 {
+    font-size: 1.2em;
+  }
+
+  .social-icon {
+    font-size: 0.8em;
+  }
+
+  .social-icons-container {
+    gap: 10px;
+  }
+}

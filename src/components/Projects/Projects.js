@@ -86,7 +86,7 @@ const projectData = [
     stack: ["C"],
     title: "Snek",
     description:
-      "Created a classic Snake game in the terminal. Player uses the arrow keys to navigate through the grid to eat fruits while avoiding collisions.",
+      "Created a classic Snake game in the terminal. Player uses the arrow keys to navigate through the grid and eat fruits while avoiding collisions.",
   },
   {
     imgSrc: "/assets/img/projects/cs61cpu.png",

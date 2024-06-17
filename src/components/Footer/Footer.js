@@ -24,7 +24,7 @@ export const Footer = () => {
           Email
         </a>
       </div>
-      <div className="footer-text">Built with ♥ by Celine</div>
+      <div className="footer-text">Developed & designed by Celine ♥ 2024</div>
     </section>
   );
 };
