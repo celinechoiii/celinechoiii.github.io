@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.ecdc5cac.css",
-    "main.js": "/static/js/main.a213438f.js",
+    "main.css": "/static/css/main.d6871a32.css",
+    "main.js": "/static/js/main.36dee730.js",
     "static/js/453.253ccfac.chunk.js": "/static/js/453.253ccfac.chunk.js",
     "static/media/Cambon-LightItalic.ttf": "/static/media/Cambon-LightItalic.35fb6551fbb4eab43f14.ttf",
     "static/media/Cambon-Italic.ttf": "/static/media/Cambon-Italic.c3c7452decedff46b461.ttf",
@@ -12,12 +12,12 @@
     "static/media/AUTHENTICSans-90.otf": "/static/media/AUTHENTICSans-90.908da577d4fe9600bc69.otf",
     "static/media/AUTHENTICSans-60.otf": "/static/media/AUTHENTICSans-60.c2d7f225e9f359e3fd84.otf",
     "index.html": "/index.html",
-    "main.ecdc5cac.css.map": "/static/css/main.ecdc5cac.css.map",
-    "main.a213438f.js.map": "/static/js/main.a213438f.js.map",
+    "main.d6871a32.css.map": "/static/css/main.d6871a32.css.map",
+    "main.36dee730.js.map": "/static/js/main.36dee730.js.map",
     "453.253ccfac.chunk.js.map": "/static/js/453.253ccfac.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ecdc5cac.css",
-    "static/js/main.a213438f.js"
+    "static/css/main.d6871a32.css",
+    "static/js/main.36dee730.js"
   ]
 }
