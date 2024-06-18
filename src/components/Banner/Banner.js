@@ -1,4 +1,5 @@
 import React from "react";
+import arrowTopRight from "/Users/celinechoi/personal-website/src/icons/arrow-top-right-white.svg";
 import "./Banner.css";
 
 export const Banner = () => {
@@ -24,7 +25,12 @@ export const Banner = () => {
             target="_blank"
             class="social-icon"
           >
-            Github<span className="topright-arrow">&#8599;</span>
+            Github
+            <img
+              src={arrowTopRight}
+              alt="Top right arrow"
+              className="topright-arrow"
+            />
           </a>
           <a
             href="https://www.linkedin.com/in/celinejwchoi"
@@ -49,7 +55,12 @@ export const Banner = () => {
           </a>
         </div>
       </div>
-      {/* <div className="down-arrow">&#x2193;</div> */}
+      <div className="arrow-container">
+        <div className="click-me-text">
+          <span className="border-text">Click me!</span>
+        </div>
+        <a href="#about" className="arrow"></a>
+      </div>
     </section>
   );
 };
